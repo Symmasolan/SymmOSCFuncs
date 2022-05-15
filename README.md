@@ -18,26 +18,17 @@ In the latest VRChat supported version of Unity, import the following:
 This will depend on what you plan to manipulate using this program's output, but for the majority of situations you will be placing the `FX_MoonOSC` Animation Controller into your FX layer.
 
 ## Getting your own WeatherAPI api key
-Go to [www.weatherapi.com](https://www.weatherapi.com/)
-
-Create a new account and get a **FREE** plan API key. You won't need any higher level than free.
-
-
-Once you log in, there will be an API key visible.
-
-**DO NOT SHARE THIS API KEY WITH ANYBODY.** API keys are sensitive information. Treat them the same as you would a password.
-
-Be warned, there are multiple places on the website where your API key is not visually obfuscated in any way while logged in!
-
-
-Create a new file under `./Secrets/` named `weatherapi.key`.
-
-Copy and paste your API key into this file.
+1. Go to [www.weatherapi.com](https://www.weatherapi.com/) and create a new account and get a **FREE** plan API key. You won't need any higher level than free.
+2. Once you log in, there will be an API key visible.
+  - **DO NOT SHARE THIS API KEY WITH ANYBODY.** API keys are sensitive information. Treat them the same as you would a password.
+  - Be warned, there are multiple places on the website where your API key is not visually obfuscated in any way while logged in!
+3. Create a new folder named `Secrets`. Then, create a new file under `/Secrets` named `weatherapi.key`.
+4. Copy and paste your WeatherAPI key into the `weatherapi.key` file.
 
 ## Editing the Config to set your weather location
-Open the `SymmOSCFuncs.dll.config` file with any text editor of your choice.
+1. Open the `SymmOSCFuncs.dll.config` file with any text editor of your choice.
 
-Change the `"London"` value to a location of your choosing
+2. Change the `"London"` value to a location of your choosing
   - This `Location` value is not stored, sent, or used anywhere other than with WeatherAPI for standard API actions.
   - Any valid ZIP code number or state/province name will work!
   - Here are a few examples of valid options:
@@ -53,13 +44,13 @@ Change the `"London"` value to a location of your choosing
 You only need to take this step if you're choosing to use the `start.bat` file to start both VRChat and this program at the same time.
 
 
-Right click -> Edit `start.bat`
+1. Right click -> Edit `start.bat`
 
-Change the second line's value (VRCFOLDER=) to your local VRChat install folder.
+2. Change the second line's value (VRCFOLDER=) to your local VRChat install folder.
   - This is usually `C:\Program Files (x86)\Steam\steamapps\common\VRChat\`
   - Make sure your folder location is surrounded in quotations ("")
   - Make sure you ONLY use backslashes in your folder path! (\\)
 
 ------
-## TODO
-- Explain where to put animations in each layer for the `FX_MoonOSC` animation controller.
+## Todo
+- Explain where to put individual animations in each layer for the `FX_MoonOSC` animation controller.
