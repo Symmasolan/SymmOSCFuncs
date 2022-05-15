@@ -9,10 +9,9 @@ This readme assumes that you're using the most current [release](https://github.
 This will also assume basic knowledge/understanding of Unity Animators.
 
 ## Setting up your Unity project
-In the latest VRChat supported version of Unity, import the following:
-- Latest VRChat Avatar SDK
-- (Optional) Poiyomi 7+
-  - The included `.unitypackage` in [Releases](https://github.com/Symmasolan/SymmOSCFuncs/releases/latest) will have Poiyomi 8 materials as an example, but any animatable shader of your choosing will work similarly to the example animations.
+In the latest VRChat supported version of Unity, import:
+1. Latest VRChat Avatar SDK
+2. `SymmOSCFuncs.unitypackage` from [releases](https://github.com/Symmasolan/SymmOSCFuncs/releases/latest)
 
 ## Setting up your VRChat Animation Layers with MoonOSC
 This will depend on what you plan to manipulate using this program's output, but for the majority of situations you will be placing the `FX_MoonOSC` Animation Controller into your FX layer.
@@ -22,8 +21,8 @@ This will depend on what you plan to manipulate using this program's output, but
 2. Once you log in, there will be an API key visible.
   - **DO NOT SHARE THIS API KEY WITH ANYBODY.** API keys are sensitive information. Treat them the same as you would a password.
   - Be warned, there are multiple places on the website where your API key is not visually obfuscated in any way while logged in!
-3. Create a new folder named `Secrets`. Then, create a new file under `/Secrets` named `weatherapi.key`.
-4. Copy and paste your WeatherAPI key into the `weatherapi.key` file.
+3. Create a new folder named `Secrets`. Then, create a new file in `Secrets` named `weatherapi.key`.
+4. Copy and paste your WeatherAPI API key into the `weatherapi.key` file.
 
 ## Editing the Config to set your weather location
 1. Open the `SymmOSCFuncs.dll.config` file with any text editor of your choice.
