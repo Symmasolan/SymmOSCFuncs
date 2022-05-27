@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: MoonOSC_Menu
   m_EditorClassIdentifier: 
   controls:
+  - name: Moon Update
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: MoonUpdate
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
   - name: Moon Illumination
     icon: {fileID: 0}
     type: 203

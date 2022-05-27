@@ -25,6 +25,10 @@ MonoBehaviour:
     valueType: 1
     saved: 1
     defaultValue: 0
+  - name: MoonPhase
+    valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: MoonIllumination
     valueType: 1
     saved: 1

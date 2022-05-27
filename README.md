@@ -1,4 +1,4 @@
-# Symmasolan's OSC Functions
+# Symm's OSC Functions
 ### What is this?
 A standalone OSC program for VRChat that uses [WeatherAPI](https://www.weatherapi.com/) to retrieve the current phase and illumination of the moon, returning it as useable values via OSC.
 
